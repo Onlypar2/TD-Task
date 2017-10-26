@@ -1,18 +1,160 @@
 body {
-  background: #323232;
+  background: #ffffff;
+}
+
+.bg1 {
+  padding: 0px;
+  background: #FF1902;
+  height: 70%;
 }
 
 .Heading {
-  font-family: sans-serif;
+  display: flex;
   text-align: center;
-  padding-top: 20px;
+  justify-content: center;
+  font-size: 48px;
+margin: 0px;
+padding: 50px;
+color: white;
+font-family: 'Montserrat', sans-serif;
+
+}
+.sub-heading {
+text-align: center;
+font-size: 32px;
+margin-bottom: 20px;
+margin-top: 0px;
+font-family: 'Monsterrat', sans-serif;
+font-weight: 300;
+}
+
+.thin {
+  font-family: 'Montserrat', sans-serif;
+font-weight: 200;
+}
+.semi {
+  font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+}
+
+.bold {
+  font-family: 'Montserrat', sans-serif;
+font-weight: 700;
 }
 
 .container {
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  top: 150px;
+  left: 700px;
   text-align: center;
+  padding: 50PX;
   font-size: 16px;
   background-color: #333333;
-  margin: 50px;
+  margin: 20px;
   border-radius: 25px;
-  box-shadow: 10px,10px,10px;
+  box-shadow: 4px,4px,4px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  text-align: left;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-indent: 10px;
+}
+
+input {
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  border-top: 0px;
+  border-color: #fff;
+  background-color: #333333;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px
+}
+
+.radio {
+  display: block;
+  padding-left: 30px;
+  height: 80px;
+
+}
+
+.block {
+  display: block;
+}
+
+label {
+  height: 25px;
+}
+
+.mr-10 {
+  margin: 50px;
+}
+
+select {
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  border-top: 0px;
+  border-color: #fff;
+  background-color: #333333;
+}
+
+.signature {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 1150px;
+  left: 35px;
+}
+
+select {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.buttons {
+  height: 50px;
+  display: flex;
+flex-flow: row;
+  margin-top: 20px;
+  padding-top: 10px
+  justify-content: center;
+}
+
+.cancelbtn {
+  background: white;
+  border: 0px;
+  margin-right: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  width: 300px;
+}
+
+.signupbtn {
+  background: red;
+    border: 0px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+      width: 300px;
 }
