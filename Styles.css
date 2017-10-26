@@ -3,9 +3,9 @@ body {
 }
 
 .bg1 {
-  padding: 0px;
   background: #FF1902;
-  height: 70%;
+  height: 500px;
+  width: 100%;
 }
 
 .Heading {
@@ -111,11 +111,14 @@ select {
   border-color: #fff;
   background-color: #333333;
 }
+.text {
+  height: 550px;
+}
 
 img {
   position: absolute;
   left: 450px;
-  top: 260px;
+  top: 230px;
   height: 80%;
 }
 
