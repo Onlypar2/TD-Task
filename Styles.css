@@ -2,10 +2,6 @@ body {
   background: #ffffff;
 }
 
-html {
-  display: run-in;
-}
-
 .bg1 {
   padding: 0px;
   background: #FF1902;
@@ -15,14 +11,16 @@ html {
 .Heading {
   display: flex;
   text-align: center;
-  justify-content: center;
-  font-size: 48px;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-size: 30px;
 margin: 0px;
-padding: 50px;
+padding-left: 40px;
+padding-top: 30px;
 color: white;
 font-family: 'Montserrat', sans-serif;
-
 }
+
 .sub-heading {
 text-align: center;
 font-size: 32px;
@@ -49,8 +47,8 @@ font-weight: 700;
 .container {
   position: absolute;
   width: 30%;
-  height: 100%;
-  top: 150px;
+  height: 920px;
+  top: 100px;
   left: 700px;
   text-align: center;
   padding: 50PX;
@@ -117,15 +115,28 @@ select {
 img {
   position: absolute;
   left: 450px;
-  top: 265px;
+  top: 260px;
   height: 80%;
+}
 
+.zoombie {
+  position: absolute;
+  height: 300px;
+  left: -250px;
+  top: 140px;
+}
+
+.Ghost {
+  position: absolute;
+  height: 300px;
+  left: -250px;
+  top: -50px;
 }
 
 .signature {
   font-family: 'Montserrat', sans-serif;
   position: absolute;
-  top: 1150px;
+  top: 1100px;
   left: 35px;
 }
 
